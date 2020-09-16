@@ -21,3 +21,5 @@ Environemnt variable set for pyarrow build:
 
     export PYARROW_WITH_PARQUET=1
     python setup.py build_ext --build-type=release --bundle-arrow-cpp bdist_wheel
+    
+See article: https://medium.com/@stevenrfraser7/compiling-a-slim-version-of-pyarrow-for-lambda-af995c52c6f0
